@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Collector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Feedback Collector</h2>
+        
+        <form id="fForm">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            
+            <label for="msg">Your Feedback</label>
+            <textarea id="msg" placeholder="Write your feedback here..." rows="4" required></textarea>
+            
+            <button type="submit">Submit Feedback</button>
+        </form>
+        
+        <hr>
+        
+        <h3>All Feedbacks</h3>
+        <div id="fList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
